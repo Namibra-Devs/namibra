@@ -9,7 +9,9 @@ export default {
   },
   theme: {
     extend: {
-      colors: {},
+      colors: {
+        primary: "#261818", // Custom color
+      },
       fontFamily: {
         primary: "Vollkorn",
       },
