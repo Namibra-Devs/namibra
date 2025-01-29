@@ -1,0 +1,31 @@
+import forms from "@tailwindcss/forms";
+import typography from "@tailwindcss/typography";
+
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  variants: {
+    display: ["responsive", "group-hover", "group-focus"],
+  },
+  theme: {
+    extend: {
+      colors: {},
+      fontFamily: {
+        primary: "Vollkorn",
+      },
+      boxShadow: {
+        "custom-light": "0 4px 6px -1px rgba(0, 0, 0, 0.1)",
+        "custom-dark": "0 10px 15px -3px rgba(0, 0, 0, 0.3)",
+      },
+      backgroundImage: {
+        herobg: "url(../src/assets/hero/1.jpg)",
+        sectionbgI: "url(../../img/others/lines-Illustration-new.png)",
+        aboutusbg: "url(../../img/aboutus/team-works-office.jpg)",
+        servicesbg: "url(../../img/services/global-communication.jpg)",
+        contactusbg: "url(../../img/contactus/Contact_header.jpg)",
+        contactusbgI: "url(../../img/contactus/IM-Banner-Contact.jpg)",
+      },
+    },
+  },
+  plugins: [forms, typography],
+};

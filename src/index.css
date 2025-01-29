@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* General Button  */
+  .nav-link{
+    @apply text-[24px] hover:text-blue-400 transition;
+  }
+  .btn {
+    @apply px-5 py-2 md:px-6 md:py-2.5 w-full font-semibold focus:bg-blue-800;
+  }
+  /* Button primary */
+  .btn-primary {
+    @apply bg-blue-700 hover:bg-blue-800 hover:text-white duration-700 hover:shadow-xl;
+  }
+  /* Button outline */
+  .btn-outline {
+    @apply border-2 border-slate-200 hover:bg-red-700 duration-700;
+  }
+  /* Button accent */
+  .btn-accent {
+    @apply bg-red-700 hover:bg-blue-700 hover:text-white duration-700 hover:shadow-xl;
+  }
+  /* Mobile menu open */
+  .mobile-menu.active {
+    @apply top-0 bg-blue-700;
+  }
+  .mmlist {
+    @apply flex justify-center items-center gap-2 text-sm md:py-7 border-b-4 border-transparent hover:border-white duration-700;
+  }
+  nav.sticky {
+    @apply fixed top-0 left-0 w-full z-50 bg-blue-700;
+  }
+  #sponsorBtn.btn-bg {
+    @apply bg-red-700;
+  }
+}
+
+body {
+  font-family: "Vollkorn", sans-serif;
+  padding: 0;
+  margin: 0;
+}
