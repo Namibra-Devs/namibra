@@ -9,7 +9,9 @@ export default {
   },
   theme: {
     extend: {
-      colors: {},
+      colors: {
+        primary: "#261818", // Custom color
+      },
       fontFamily: {
         primary: "Vollkorn",
       },
@@ -18,12 +20,16 @@ export default {
         "custom-dark": "0 10px 15px -3px rgba(0, 0, 0, 0.3)",
       },
       backgroundImage: {
-        herobg: "url(../src/assets/hero/1.jpg)",
-        sectionbgI: "url(../../img/others/lines-Illustration-new.png)",
-        aboutusbg: "url(../../img/aboutus/team-works-office.jpg)",
-        servicesbg: "url(../../img/services/global-communication.jpg)",
-        contactusbg: "url(../../img/contactus/Contact_header.jpg)",
-        contactusbgI: "url(../../img/contactus/IM-Banner-Contact.jpg)",
+        homebg: "url(../src/assets/home/hero-bg.png)",
+        aboutusbg: "url(../src/assets/aboutus/aboutus-bg.png)",
+        servicesbg: "url(../src/assets/services/services-bg.png)",
+        careersbg: "url(../src/assets/careers/careers-bg.png)",
+        ourportfoliobg: "url(../src/assets/our-portfolio/our-portfolio-bg.png)",
+        testimonialsbg: "url(../src/assets/testimonials/testimonials-bg.png)",
+        expertisestudybg: "url(../src/assets/expertise-study/expertise-study-bg.png)",
+      },
+      animation: {
+        "spin-delay": "spin 8s linear infinite 0.5s", // Adds 0.5s delay
       },
     },
   },
