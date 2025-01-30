@@ -1,6 +1,6 @@
 import AboutusHero from "../../components/HeroSections/AboutusHero"
 
-const AboutsUs = () => {
+const AboutUs = () => {
   return (
     <>
       <AboutusHero />
@@ -8,4 +8,4 @@ const AboutsUs = () => {
   )
 }
 
-export default AboutsUs
+export default AboutUs
