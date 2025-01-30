@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="mx-auto px-6 lg:px-10 grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-40">
         {/* Left Section - Logo, Name, Contact */}
         <div>
-          <h2 className="text-[40px] font-bold mb-2">Namibra</h2>
+          <a href="/" className="text-[40px] font-bold mb-2">Namibra</a>
           <p className="text-[18px] mb-3">
             Lorem ipsum diolor emet atet lorem ipsum dilore amet lorem iosum
             dilor amet lorem ipsum diilor amet ncdnd dnjsdkkdls

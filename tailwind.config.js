@@ -20,7 +20,8 @@ export default {
         "custom-dark": "0 10px 15px -3px rgba(0, 0, 0, 0.3)",
       },
       backgroundImage: {
-        herobg: "url(../src/assets/home/hero-bg.png)",
+        homebg: "url(../src/assets/home/hero-bg.png)",
+        aboutusbg: "url(../src/assets/aboutus/aboutus-bg.png)",
       },
     },
   },

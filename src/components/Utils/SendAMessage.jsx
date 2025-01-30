@@ -1,8 +1,7 @@
-import React from "react";
 
 const SendAMessage = () => {
   return (
-    <div className="bg-white/10 backdrop-blur-0 backdrop-brightness-90 text-white p-10 rounded-lg">
+    <div className="bg-white/10 backdrop-blur-0 backdrop-brightness-90 w-full text-white p-10 rounded-lg">
       <h2 className="text-[24px] font-bold text-center">Request a call-back</h2>
       <p className="text-center text-white mb-10">Get in touch with us</p>
 
