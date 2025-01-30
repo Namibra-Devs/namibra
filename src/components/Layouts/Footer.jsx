@@ -6,7 +6,7 @@ import instagramIcon from "../../assets/icons/instagram.png";
 const Footer = () => {
   return (
     <footer className="bg-primary text-white py-20">
-      <div className="container mx-auto px-6 lg:px-10 grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-40">
+      <div className="mx-auto px-6 lg:px-10 grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-40">
         {/* Left Section - Logo, Name, Contact */}
         <div>
           <h2 className="text-[40px] font-bold mb-2">Namibra</h2>

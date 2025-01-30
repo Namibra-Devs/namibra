@@ -20,12 +20,7 @@ export default {
         "custom-dark": "0 10px 15px -3px rgba(0, 0, 0, 0.3)",
       },
       backgroundImage: {
-        herobg: "url(../src/assets/hero/1.jpg)",
-        sectionbgI: "url(../../img/others/lines-Illustration-new.png)",
-        aboutusbg: "url(../../img/aboutus/team-works-office.jpg)",
-        servicesbg: "url(../../img/services/global-communication.jpg)",
-        contactusbg: "url(../../img/contactus/Contact_header.jpg)",
-        contactusbgI: "url(../../img/contactus/IM-Banner-Contact.jpg)",
+        herobg: "url(../src/assets/home/hero-bg.png)",
       },
     },
   },

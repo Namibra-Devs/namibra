@@ -1,13 +1,10 @@
-import Navbar from '../../components/Layouts/Navbar'
+import HomeHero from "../../components/HeroSections/HomeHero"
 
 const Home = () => {
   return (
-    <section className='bg-black h-screen w-full'>
-      <Navbar/>
-      <div>
-
-      </div>
-    </section>
+    <>
+      <HomeHero />
+    </>
   )
 }
 
