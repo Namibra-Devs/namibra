@@ -1,3 +1,4 @@
+import logo from "../../assets/logo.png";
 import facebookIcon from "../../assets/icons/facebook.png";
 import twitterIcon from "../../assets/icons/twitter.png";
 import linkedinIcon from "../../assets/icons/linkedin.png";
@@ -5,11 +6,13 @@ import instagramIcon from "../../assets/icons/instagram.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary text-white py-20">
+    <footer className="bg-primary text-white py-20 relative overflow-hidden">
       <div className="mx-auto px-6 lg:px-10 grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-40">
         {/* Left Section - Logo, Name, Contact */}
         <div>
-          <h2 className="text-[40px] font-bold mb-2">Namibra</h2>
+          <a href="/" className="text-[40px] font-bold mb-2">
+            Namibra
+          </a>
           <p className="text-[18px] mb-3">
             Lorem ipsum diolor emet atet lorem ipsum dilore amet lorem iosum
             dilor amet lorem ipsum diilor amet ncdnd dnjsdkkdls
@@ -39,7 +42,10 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="/ourportfolio" className="hover:text-gray-400 text-[18px]">
+              <a
+                href="/ourportfolio"
+                className="hover:text-gray-400 text-[18px]"
+              >
                 Portfolio
               </a>
             </li>
@@ -70,7 +76,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
+      <div className="absolute bottom-5 flex justify-center items-center w-full">
+        <img src={logo} alt="Namibra" className="w-5 animate-spin-delay" />
+      </div>{" "}
       {/* Bottom Section - Copyright */}
       <div className="text-center text-[18px] text-gray-400 mt-20">
         © 2023 Namibra. All rights reserved.
