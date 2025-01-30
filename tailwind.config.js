@@ -25,6 +25,8 @@ export default {
         servicesbg: "url(../src/assets/services/services-bg.png)",
         careersbg: "url(../src/assets/careers/careers-bg.png)",
         ourportfoliobg: "url(../src/assets/our-portfolio/our-portfolio-bg.png)",
+        testimonialsbg: "url(../src/assets/testimonials/testimonials-bg.png)",
+        expertisestudybg: "url(../src/assets/expertise-study/expertise-study-bg.png)",
       },
       animation: {
         "spin-delay": "spin 8s linear infinite 0.5s", // Adds 0.5s delay
