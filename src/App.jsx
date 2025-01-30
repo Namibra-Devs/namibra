@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Footer from "./components/layouts/Footer";
 import Home from "./pages/home/Home";
 import AboutUs from "./pages/aboutus/AboutUs";
 import Services from "./pages/services/Services";
@@ -8,6 +7,7 @@ import Careers from "./pages/careers/Careers";
 import OurPortfolio from "./pages/ourPortfolio/OurPortfolio";
 import Testimonials from "./pages/testimonials/Testimonials";
 import ExpertiseStudy from "./pages/expertiseStudy/ExpertiseStudy";
+import Footer from "./components/layouts/Footer";
 const App = () => {
   return (
     <Router>
