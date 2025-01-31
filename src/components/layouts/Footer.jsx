@@ -7,7 +7,7 @@ import instagramIcon from "../../assets/icons/instagram.png";
 const Footer = () => {
   return (
     <footer className="bg-primary text-white py-20 relative overflow-hidden">
-      <div className="mx-auto px-6 lg:px-10 grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-40">
+      <div className="mx-auto px-6 lg:px-16 grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-40">
         {/* Left Section - Logo, Name, Contact */}
         <div>
           <a href="/" className="text-[40px] font-bold mb-2">
@@ -80,7 +80,7 @@ const Footer = () => {
         <img src={logo} alt="Namibra" className="w-5 animate-spin-delay" />
       </div>{" "}
       {/* Bottom Section - Copyright */}
-      <div className="text-center text-[18px] text-gray-400 mt-20">
+      <div className="text-center text-sm text-gray-400 mt-20">
         © 2023 Namibra. All rights reserved.
       </div>
     </footer>
