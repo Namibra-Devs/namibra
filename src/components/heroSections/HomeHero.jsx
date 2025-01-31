@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import ButtonTransparent from "../Buttons/ButtonTransparent";
-import Navbar from "../Layouts/Navbar";
-import SendAMessage from "../Utils/SendAMessage";
+import ButtonTransparent from "../buttons/ButtonTransparent";
+import Navbar from "../layouts/Navbar";
+import SendAMessage from "../utils/SendAMessage";
 
 const HomeHero = () => {
   return (
