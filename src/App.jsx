@@ -7,6 +7,7 @@ import Careers from "./pages/careers/Careers";
 import OurPortfolio from "./pages/ourPortfolio/OurPortfolio";
 import Testimonials from "./pages/testimonials/Testimonials";
 import ExpertiseStudy from "./pages/expertiseStudy/ExpertiseStudy";
+import Contactus from "./pages/contactus/Contactus";
 import Footer from "./components/layouts/Footer";
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/portfolio" element={<OurPortfolio/>} />
         <Route path="/testimonials" element={<Testimonials/>} />
         <Route path="/expertise-study" element={<ExpertiseStudy/>} />
+        <Route path="/contact-us" element={<Contactus/>} />
       </Routes>
       <Footer />
     </Router>
