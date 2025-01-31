@@ -1,4 +1,4 @@
-import AboutusHero from "../../components/HeroSections/AboutusHero"
+import AboutusHero from "../../components/heroSections/AboutusHero"
 
 const AboutUs = () => {
   return (
