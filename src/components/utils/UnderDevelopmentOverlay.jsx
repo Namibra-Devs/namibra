@@ -24,10 +24,10 @@ const UnderDevelopmentOverlay = () => {
         <h2 className="text-2xl font-bold mb-2 text-white">Site Under Development (Namibra.io)</h2>
         <p className="mb-4 text-white text-sm">Would you like to explore it?</p>
         <div className="flex justify-center space-x-4">
-          <button onClick={handleExplore} className="bg-blue-500 hover:bg-blue-700 duration-700 ease text-white font-bold py-2 px-10 rounded-full">
+          <button onClick={handleExplore} className="bg-blue-800/40 hover:bg-blue-800/55 duration-700 ease text-white font-bold py-2 px-10 rounded">
             Yes
           </button>
-          <button onClick={handleExit} className="border-2 hover:bg-blue-950 hover:border-blue-700 duration-700 ease text-white font-bold py-2 px-10 rounded-full">
+          <button onClick={handleExit} className="border hover:bg-blue-950 hover:border-blue-700 duration-700 ease text-white font-bold py-2 px-10 rounded">
             No
           </button>
         </div>
