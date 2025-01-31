@@ -9,9 +9,11 @@ import Testimonials from "./pages/testimonials/Testimonials";
 import ExpertiseStudy from "./pages/expertiseStudy/ExpertiseStudy";
 import Contactus from "./pages/contactus/Contactus";
 import Footer from "./components/layouts/Footer";
+import UnderDevelopmentOverlay from "./components/utils/UnderDevelopmentOverlay";
 const App = () => {
   return (
     <Router>
+      <UnderDevelopmentOverlay/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
