@@ -1,22 +1,22 @@
 
 const SendAMessage = () => {
   return (
-    <div className="bg-white/15 backdrop-blur-0 backdrop-brightness-90 w-full  text-white p-10 rounded">
+    <div className="bg-white/15 backdrop-blur-0 backdrop-brightness-90 w-full lg:w-10/12  text-white p-6 lg:p-10 rounded">
       <h2 className="text-2xl font-bold text-center">Request a call-back</h2>
       <p className="text-center text-white mb-10">Get in touch with us</p>
 
       <form className="space-y-6">
         {/* Name & Number - Flex Row */}
-        <div className="flex flex-col md:flex-row gap-4">
+        <div className="flex flex-col md:flex-row gap-4 w-full">
           <input
             type="text"
             placeholder="Your Name"
-            className="flex-1 bg-transparent border border-white/30 rounded py-3 px-4 text-[15px] text-white placeholder-white focus:outline-none"
+            className="flex-1 w-full bg-transparent border border-white/30 rounded py-3 px-4 text-[15px] text-white placeholder-white focus:outline-none"
           />
           <input
             type="tel"
             placeholder="Your Number"
-            className="flex-1 bg-transparent border border-white/30 rounded py-3 px-4 text-[15px] text-white placeholder-white focus:outline-none"
+            className="flex-1 w-full bg-transparent border border-white/30 rounded py-3 px-4 text-[15px] text-white placeholder-white focus:outline-none"
           />
         </div>
 
