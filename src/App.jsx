@@ -13,18 +13,18 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/about-us" element={<AboutUs/>} />
-        <Route path="/services" element={<Services/>} />
-        <Route path="/careers" element={<Careers/>} />
-        <Route path="/portfolio" element={<OurPortfolio/>} />
-        <Route path="/testimonials" element={<Testimonials/>} />
-        <Route path="/expertise-study" element={<ExpertiseStudy/>} />
-        <Route path="/contact-us" element={<Contactus/>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/careers" element={<Careers />} />
+        <Route path="/portfolio" element={<OurPortfolio />} />
+        <Route path="/testimonials" element={<Testimonials />} />
+        <Route path="/expertise-study" element={<ExpertiseStudy />} />
+        <Route path="/contact-us" element={<Contactus />} />
       </Routes>
       <Footer />
     </Router>
-   );
+  );
 };
 
 export default App;
