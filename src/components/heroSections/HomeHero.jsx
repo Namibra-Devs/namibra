@@ -2,8 +2,6 @@ import { Link } from "react-router-dom";
 import ButtonTransparent from "../buttons/ButtonTransparent";
 import Navbar from "../layouts/Navbar";
 import SendAMessage from "../utils/SendAMessage";
-import VerticalAnimatedElement from "../utils/VerticalAnimatedElement";
-import HorizontalAnimatedElement from "../utils/HorizontalAnimatedElement";
 const HomeHero = () => {
   return (
     <section className="relative bg-homebg bg-cover bg-center bg-no-repeat min-h-screen w-full overflow-hidden">
@@ -27,8 +25,6 @@ const HomeHero = () => {
           <SendAMessage />
         </div>
       </div>
-      <VerticalAnimatedElement/>
-      <HorizontalAnimatedElement/>
     </section>
   );
 };
