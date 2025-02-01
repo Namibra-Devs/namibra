@@ -13,7 +13,7 @@ const OurServices = () => {
           <span>
             <img src={Shape} alt="Ahape" className="w-28" />
           </span>
-          <h2 className="text-2xl font-medium text-black mt-2">
+          <h2 className="text-3xl font-medium text-black mt-2">
             What we do at Namibra.
           </h2>
         </div>
