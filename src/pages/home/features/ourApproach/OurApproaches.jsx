@@ -1,5 +1,5 @@
 import ArrowC from "../../../../assets/icons/Arrow.png";
-import ApproachCards from "./approachCards";
+import ApproachCards from "./ApproachCards";
 const OurApproaches = () => {
   return (
     <section className="bg-white">
