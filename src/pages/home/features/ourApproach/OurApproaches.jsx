@@ -10,7 +10,7 @@ const OurApproaches = () => {
         </h3>
         <div className="text-center mb-14">
             <h3 className="text-slate-600">Our Approaches</h3>
-            <h2 className="text-2xl font-medium text-black mt-4">We adopt the practices in delivering customer-centric solutions.</h2>
+            <h2 className="text-3xl font-medium text-black mt-4">We adopt the practices in delivering customer-centric solutions.</h2>
         </div>
         <ApproachCards/>
       </div>
