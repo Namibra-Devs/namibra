@@ -3,7 +3,7 @@ import ApproachCards from "./approachCards";
 const OurApproaches = () => {
   return (
     <section className="bg-white">
-      <div className="px-6 lg:px-24 pb-24">
+      <div className="px-6 lg:px-24 pb-52">
         <h3 className="subtitle my-8 text-black flex items-center gap-2">
           <img src={ArrowC} alt="Arrow" className="w-10" />
           Our Approach
