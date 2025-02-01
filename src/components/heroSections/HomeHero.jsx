@@ -2,13 +2,11 @@ import { Link } from "react-router-dom";
 import ButtonTransparent from "../buttons/ButtonTransparent";
 import Navbar from "../layouts/Navbar";
 import SendAMessage from "../utils/SendAMessage";
-import VerticalAnimatedElement from "../utils/VerticalAnimatedElement";
-import HorizontalAnimatedElement from "../utils/HorizontalAnimatedElement";
 const HomeHero = () => {
   return (
     <section className="relative bg-homebg bg-cover bg-center bg-no-repeat min-h-screen w-full overflow-hidden">
       <Navbar />
-      <div className="flex justify-center items-center min-h-screen pt-32 pb-20 px-6 lg:px-16 ">
+      <div className="flex justify-center items-center min-h-screen pt-32 pb-20 px-6 lg:px-24 ">
         <div className="flex flex-col md:flex-row justify-between items-center gap-32">
           <div className="text-white z-20">
             <h4 className="text-lg">Welcome to Namibra</h4>
@@ -27,8 +25,6 @@ const HomeHero = () => {
           <SendAMessage />
         </div>
       </div>
-      <VerticalAnimatedElement/>
-      <HorizontalAnimatedElement/>
     </section>
   );
 };
