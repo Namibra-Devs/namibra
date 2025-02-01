@@ -5,7 +5,7 @@ const OurServices = () => {
   return (
     <section className="bg-gray-50">
       <div className="px-6 lg:px-24 py-24">
-        <h3 className="subtitle my-8 text-black flex items-center gap-2">
+        <h3 className="subtitle mb-8 text-black flex items-center gap-2">
           <img src={ArrowC} alt="Arrow" className="w-10" />
           Our Services
         </h3>
