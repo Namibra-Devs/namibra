@@ -1,6 +1,6 @@
 import ButtonFilled from "../../../components/buttons/ButtonFilled";
 import img1 from "../../../assets/home/img1.png";
-import ArrowC from "../../../assets/icons/arrow.png";
+import ArrowC from "../../../assets/icons/Arrow.png";
 const AboutSection = () => {
   return (
     <section className="bg-white">
