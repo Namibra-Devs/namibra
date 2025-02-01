@@ -9,11 +9,11 @@ Currently, two official plugins are available:
 
 ---NAMIBRA---
 
-## --+Overview
+## Overview
 
 Namibra is a modern and responsive website built using React.js, Vite, and Tailwind CSS. It features a fully responsive Navbar, dynamic routing with React Router, and custom social media icons.
 
-## --+Features
+## Features
 
 -Responsive Transparent Navbar with navigation menus and social media icons.
 
@@ -25,7 +25,13 @@ Namibra is a modern and responsive website built using React.js, Vite, and Tailw
 
 -Tailwind CSS Styling for a clean and modern design.
 
-## --+Folder Structure
+-Installed React Icons
+
+-Installed Framer Motion for animations
+
+-Used Transparent Texture for the Moving Animation via: https://www.transparenttextures.com
+
+## Folder Structure
 
 namibra/
 │── public/
