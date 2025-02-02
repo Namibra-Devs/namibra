@@ -11,7 +11,7 @@ const BrandLogos = () => {
         <img src={b1} alt="Mastercard" className="h-24 mx-4" />
         <img src={b2} alt="Klarna" className="h-24 mx-4" />
         <img src={b3} alt="Shop Pay" className="h-24 mx-14" />
-        <img src={b4} alt="American Express" className="h-24 ml-4" />
+        <img src={b4} alt="American Express" className="h-24 mr-4 lg:mr-0 lg:ml-4" />
       </Marquee>
     </section>
   )
