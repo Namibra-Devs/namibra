@@ -1,5 +1,6 @@
 import HomeHero from "../../components/heroSections/HomeHero"
 import AboutSection from "./features/AboutSection"
+import BrandLogos from "./features/BrandLogos"
 import CustomerTestimonials from "./features/customerTestimonials/CustomerTestimonials"
 import OurApproaches from "./features/ourApproach/OurApproaches"
 import OurBlogStories from "./features/ourBlogStories/OurBlogStories"
@@ -20,6 +21,7 @@ const Home = () => {
       <OurPortfolioProjects/>
       <OurBlogStories/>
       <SignUpForNewsLetters/>
+      <BrandLogos/>
     </>
   )
 }
