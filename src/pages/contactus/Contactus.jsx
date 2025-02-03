@@ -1,7 +1,10 @@
+import ContactusHero from "../../components/heroSections/ContactusHero"
 
 const Contactus = () => {
   return (
-    <div>Contactus</div>
+    <>
+      <ContactusHero/>
+    </>
   )
 }
 
