@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import PreloaderSvg from "../../assets/infinite-spinner.svg";
-import logo from "../../assets/logo.png";
 
 const Preloader = () => {
   const [fadeOut, setFadeOut] = useState(false);
@@ -17,7 +16,6 @@ const Preloader = () => {
         fadeOut ? "opacity-0 pointer-events-none" : "opacity-100"
       }`}
     >
-      <img src={logo} alt="logo" className="w-2 animate-spin" />
       <img src={PreloaderSvg} alt="loading..." className="w-14 animate-pulse mt-4" />
     </section>
   );
