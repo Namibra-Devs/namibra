@@ -1,5 +1,6 @@
 import AboutusHero from "../../components/heroSections/AboutusHero"
 import AboutUsSection from "./features/AboutUsSection"
+import CTA from "./features/CTA"
 import OurTeam from "./features/ourTeam/OurTeam"
 
 const AboutUs = () => {
@@ -8,6 +9,7 @@ const AboutUs = () => {
       <AboutusHero />
       <AboutUsSection/>
       <OurTeam/>
+      <CTA/>
     </>
   )
 }

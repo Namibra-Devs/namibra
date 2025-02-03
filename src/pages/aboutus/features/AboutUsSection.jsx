@@ -36,7 +36,7 @@ const AboutUsSection = () => {
           <div className="w-full lg:max-w-[50%]">
             <h3 className="text-slate-800 text-3xl font-semibold">
               We make sure your <span className="italic text-black">idea </span>
-               and <span className="italic text-black">creation</span>
+               and <span className="italic text-black">creation </span>
               are delivered with great{" "}
               <span className="italic text-black">pleasure.</span>
             </h3>
