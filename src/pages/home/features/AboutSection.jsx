@@ -15,7 +15,7 @@ const AboutSection = () => {
             <div className="w-full lg:max-w-[50%]">
               <h3 className="subtitle my-8 text-black flex items-center gap-2">
                 <img src={ArrowC} alt="Arrow" className="w-10" />
-                Know about us
+                  Know about us
               </h3>
               <h2 className="heading text-xl font-medium text-black">
                 About Namibra

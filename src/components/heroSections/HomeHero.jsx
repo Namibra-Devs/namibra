@@ -18,9 +18,7 @@ const HomeHero = () => {
               By working closely with our clients We provide exceptional web,
               mobile, and technology services, Designed to meet your goals.
             </p>
-            <Link to="">
-              <ButtonTransparent label="Contact Us" />
-            </Link>
+              <ButtonTransparent label="Contact Us" link="contact-us" />
           </div>
           <SendAMessage />
         </div>
