@@ -29,6 +29,7 @@ export default {
         expertisestudybg: "url(../src/assets/expertise-study/expertise-study-bg.png)",
         expertiseHomebg: "url(../src/assets/home/our-expertise.png)",
         newslettersbg: "url(../src/assets/home/news-letters-bg.png)",
+        ctabg: "url(../src/assets/aboutus/cta-bg.png)",
       },
       animation: {
         "spin-delay": "spin 8s linear infinite 0.5s", // Adds 0.5s delay
