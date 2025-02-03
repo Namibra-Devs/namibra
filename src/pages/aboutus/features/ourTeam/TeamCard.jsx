@@ -16,9 +16,9 @@ const TeamCard = () => {
             <div className="flex flex-col items-center">
                 <p className="text-gray-600 text-sm">{card.description}</p>
                 <div className="flex items-center gap-2 mt-2">
-                    <a href=""><SiLinkedin /></a>
-                    <a href=""><FaXTwitter/></a>
-                    <a href=""><RxGlobe /></a>
+                    <a href={card.linkedin}><SiLinkedin /></a>
+                    <a href={card.twitter}><FaXTwitter /></a>
+                    <a href={card.portfolio}><RxGlobe /></a>
                 </div>
             </div>
         </div>
