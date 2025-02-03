@@ -14,6 +14,6 @@ const OurTeam = () => {
       </div>
     </section>
   );
-};
+}; 
 
 export default OurTeam;

@@ -1,9 +1,12 @@
-const ButtonOutline = ({label}) => {
+import { Link } from "react-router-dom";
+const ButtonOutline = ({ label, link }) => {
   return (
-    <button className='bg-primary border-2 hover:bg-gray-950 py-3 px-10 rounded text-[24px] font-semibold text-white'>
+    <Link to={link}>
+      <button className="bg-primary border hover:bg-gray-950 py-3 px-10 rounded text-[24px] font-semibold text-white">
         {label}
-    </button>
-  )
-}
+      </button>
+    </Link>
+  );
+};
 
-export default ButtonOutline
+export default ButtonOutline;

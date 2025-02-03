@@ -8,10 +8,10 @@ const BrandLogos = () => {
   return (
     <section className="bg-white py-24 px-6 lg:px-24 ">
         <Marquee speed={50} pauseOnHover={true} gradient={false}>
-        <img src={b1} alt="Mastercard" className="h-24 mx-4" />
-        <img src={b2} alt="Klarna" className="h-24 mx-4" />
-        <img src={b3} alt="Shop Pay" className="h-24 mx-14" />
-        <img src={b4} alt="American Express" className="h-24 mr-4 lg:mr-0 lg:ml-4" />
+        <img src={b1} alt="Mastercard" className="h-16 md:h-24 mx-4" />
+        <img src={b2} alt="Klarna" className="h-16 md:h-24 mx-4" />
+        <img src={b3} alt="Shop Pay" className="h-16 md:h-24 mx-14" />
+        <img src={b4} alt="American Express" className="h-16 md:h-24 mr-4 lg:mr-0 lg:ml-4" />
       </Marquee>
     </section>
   )
