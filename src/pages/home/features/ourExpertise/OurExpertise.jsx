@@ -2,8 +2,8 @@ import ExpertiseCard from "./ExpertiseCard";
 
 const OurExpertise = () => {
   return (
-    <section className="bg-expertiseHomebg bg-center bg-cover bg-no-repeat min-h-96">
-      <div className="px-6 lg:px-24 pt-24">
+    <section className="bg-expertiseHomebg bg-center bg-cover bg-no-repeat">
+      <div className="px-6 lg:px-24 py-24">
         <div className="text-left text-white mb-14 w-full lg:max-w-[50%]">
           <h3 className="text-white text-lg">Our Expertise</h3>
           <h2 className="text-4xl font-medium text-white my-4">
@@ -14,7 +14,9 @@ const OurExpertise = () => {
             digital environment and make the most of its possibilities.
           </p>
         </div>
-        <ExpertiseCard/>
+        <div className="-mb-64">
+          <ExpertiseCard/>
+        </div>
       </div>
     </section>
   );

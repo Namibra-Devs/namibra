@@ -1,6 +1,8 @@
 import ArrowC from "../../../../assets/icons/Arrow.png";
 import Shape from "../../../../assets/icons/shape.png";
-import ServicesCard from "./ServicesCard";
+import ServicesList from "../../../services/features/ourServices/ServicesList";
+import servicesData from "../../../services/features/ourServices/servicesData";
+
 const OurServices = () => {
   return (
     <section className="bg-gray-50">
@@ -17,7 +19,7 @@ const OurServices = () => {
             What we do at Namibra.
           </h2>
         </div>
-        <ServicesCard />
+        <ServicesList services={servicesData.slice(0, 3)} showViewMore={true} />
       </div>
     </section>
   );
