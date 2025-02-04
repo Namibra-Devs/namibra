@@ -1,5 +1,5 @@
 import ButtonFilled from "../../../../components/buttons/ButtonFilled";
-import cardData from "./servicesData";
+import cardData from "../../../services/features/servicesData";
 const ServicesCard = () => {
   return (
     <div className="text-center">
