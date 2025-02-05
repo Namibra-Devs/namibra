@@ -3,7 +3,7 @@ import servicesData from "./servicesData";
 
 const AllServices = () => {
   return (
-    <section className="bg-white">
+    <section id="allservices" className="bg-white">
       <div className="px-6 lg:px-24 pb-14">
         <div className="mb-14 text-center">
           <h3 className="text-xl text-slate-600">Our Services</h3>
