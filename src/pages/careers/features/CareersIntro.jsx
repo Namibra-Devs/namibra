@@ -9,7 +9,7 @@ const CareersIntro = () => {
           <div className="w-full lg:max-w-[50%] rounded-lg">
             <img
               src={Career1}
-              alt=""
+              alt="career image"
               className="rounded-lg w-full min-h-72 object-cover"
             />
           </div>
@@ -57,7 +57,7 @@ const CareersIntro = () => {
           <div className="w-full lg:max-w-[50%] rounded-lg overflow-hidden">
             <img
               src={Career2}
-              alt="About image"
+              alt="career image"
               className="w-full object-cover rounded-lg"
             />
           </div>
