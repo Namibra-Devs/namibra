@@ -2,6 +2,7 @@ import CareersHero from "../../components/heroSections/CareersHero";
 import CareersIntro from "./features/CareersIntro";
 import NamibraCulture from "./features/namibraCulture/NamibraCulture";
 import OpenPositions from "./features/openPositions/OpenPositions";
+import TeamTestimonials from "./features/teamTestimonials/TeamTestimonials";
 
 const Careers = () => {
   return (
@@ -10,6 +11,7 @@ const Careers = () => {
       <CareersIntro />
       <NamibraCulture />
       <OpenPositions />
+      <TeamTestimonials/>
     </>
   );
 };
