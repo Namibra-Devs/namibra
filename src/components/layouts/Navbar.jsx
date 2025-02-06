@@ -69,16 +69,16 @@ const Navbar = () => {
 
         {/* Social Media Icons (Desktop) */}
         <div className="hidden md:flex space-x-4">
-          <a href="#" className="social-icon">
+          <a href="#" className="social-icon hover:-translate-y-2 duration-700">
             <img src={facebookIcon} alt="Facebook" className="w-[25px] h-[25px]" />
           </a>
-          <a href="#" className="social-icon">
+          <a href="#" className="social-icon hover:-translate-y-2 duration-700">
             <img src={twitterIcon} alt="Twitter" className="w-[25px] h-[25px]" />
           </a>
-          <a href="#" className="social-icon">
+          <a href="#" className="social-icon hover:-translate-y-2 duration-700">
             <img src={linkedinIcon} alt="LinkedIn" className="w-[25px] h-[25px]" />
           </a>
-          <a href="#" className="social-icon">
+          <a href="#" className="social-icon hover:-translate-y-2 duration-700">
             <img src={instagramIcon} alt="Instagram" className="w-[25px] h-[25px]" />
           </a>
         </div>
