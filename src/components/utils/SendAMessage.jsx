@@ -1,7 +1,7 @@
 
 const SendAMessage = () => {
   return (
-    <div className="bg-white/15 backdrop-blur-0 backdrop-brightness-90 w-full lg:w-10/12 z-20 text-white p-6 lg:p-10 rounded">
+    <div className="bg-white/15 backdrop-blur-0 backdrop-brightness-90 w-full  z-20 text-white p-6 lg:p-10 rounded">
       <h2 className="text-2xl font-bold text-center">Request a call-back</h2>
       <p className="text-center text-white mb-10">Get in touch with us</p>
 

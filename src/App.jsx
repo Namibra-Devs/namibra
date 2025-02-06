@@ -12,6 +12,7 @@ import Contactus from "./pages/contactus/Contactus";
 import Footer from "./components/layouts/Footer";
 import UnderDevelopmentOverlay from "./components/utils/UnderDevelopmentOverlay";
 import Preloader from "./components/utils/Preloader";
+import ScrollToTop from "./components/utils/ScrollToTop";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -27,6 +28,7 @@ const App = () => {
 
   return (
     <Router>
+      <ScrollToTop/>
       {loading ? (
         <Preloader />
       ) : (

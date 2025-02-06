@@ -1,8 +1,11 @@
 import Shape from "../../../../assets/icons/shape.png";
 import ArrowC from "../../../../assets/icons/Arrow.png";
-import ProjectOne from "../../../../assets/our-portfolio/projectone.png";
-import ButtonFilled from "../../../../components/buttons/ButtonFilled";
+import SelectedPortfolio from "./SelectedPortfolio";
+// import ProjectOne from "../../../../assets/our-portfolio/projectone.png";
+
+
 const OurPortfolioProjects = () => {
+
   return (
     <section className="bg-white">
       <div className="px-6 lg:px-24 pb-24">
@@ -23,14 +26,7 @@ const OurPortfolioProjects = () => {
             our projects.
           </h3>
         </div>
-        <div className="flex flex-col">
-          <img src={ProjectOne} alt="Project" className="w-full mb-10" />
-          <img src={ProjectOne} alt="Project" className="w-full" />
-          
-          <div className="text-center mt-10">
-            <ButtonFilled label="View More"/>
-          </div>
-        </div>
+        <SelectedPortfolio/>
       </div>
     </section>
   );
