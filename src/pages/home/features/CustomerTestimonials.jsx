@@ -1,6 +1,7 @@
 
-import Shape from "../../../../assets/icons/shape.png";
-import TestimonialCard from "./TestimonialCard";
+import Shape from "../../../assets/icons/shape.png";
+import TestimonialsList from "../../testimonials/features/customersTestimonials/TestimonialsList";
+import testimonialsData from "../../testimonials/features/customersTestimonials/testimonialsData"
 const CustomerTestimonials = () => {
   return (
     <section className="bg-white">
@@ -14,7 +15,7 @@ const CustomerTestimonials = () => {
           </h2>
           <h3 className="text-slate-600 text-sm">This is what our clients says about us.</h3>
         </div>
-        <TestimonialCard />
+        <TestimonialsList testimonial={testimonialsData.slice(0, 2)} showMore={true} />
       </div>
     </section>
   )
