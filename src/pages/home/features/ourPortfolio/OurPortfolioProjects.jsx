@@ -1,8 +1,11 @@
 import Shape from "../../../../assets/icons/shape.png";
 import ArrowC from "../../../../assets/icons/Arrow.png";
-import ProjectOne from "../../../../assets/our-portfolio/projectone.png";
+// import ProjectOne from "../../../../assets/our-portfolio/projectone.png";
 import ButtonFilled from "../../../../components/buttons/ButtonFilled";
+import portfolioData from "../../../ourPortfolio/features/portfolioData";
+
 const OurPortfolioProjects = () => {
+
   return (
     <section className="bg-white">
       <div className="px-6 lg:px-24 pb-24">
@@ -23,12 +26,19 @@ const OurPortfolioProjects = () => {
             our projects.
           </h3>
         </div>
-        <div className="flex flex-col">
-          <img src={ProjectOne} alt="Project" className="w-full mb-10" />
-          <img src={ProjectOne} alt="Project" className="w-full" />
-          
+        <div className="flex flex-col gap-10">
+          {portfolioData[0].projects.slice(0, 2).map((project) => (
+            <div key={project.id}>
+              <img src={project.image} alt={project.title} className="w-full mb-10" />
+              <div className="space-y-2">
+                <h3 className="text-xl font-semibold">{project.title}</h3>
+                <p className="text-gray-600">{project.description}</p>
+              </div>
+            </div>
+          ))}
+    
           <div className="text-center mt-10">
-            <ButtonFilled label="View More"/>
+            <ButtonFilled label="View More"link="/portfolio" />
           </div>
         </div>
       </div>
