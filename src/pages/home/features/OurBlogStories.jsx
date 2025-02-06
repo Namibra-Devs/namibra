@@ -1,6 +1,7 @@
-import Shape from "../../../../assets/icons/shape.png";
-import ArrowC from "../../../../assets/icons/Arrow.png";
-import BlogCard from "./BlogCard";
+import Shape from "../../../assets/icons/shape.png";
+import ArrowC from "../../../assets/icons/Arrow.png";
+import blogData from "../../expertiseStudy/features/blogpost/blogData";
+import BlogList from "../../expertiseStudy/features/blogpost/BlogList";
 const OurBlogStories = () => {
   return (
     <section className="bg-white">
@@ -20,7 +21,7 @@ const OurBlogStories = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           </h3>
         </div>
-        <BlogCard/>
+        <BlogList blogs={blogData} showMore={true} />
       </div>
     </section>
   )

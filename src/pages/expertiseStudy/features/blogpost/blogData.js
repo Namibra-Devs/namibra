@@ -3,7 +3,7 @@ import Business from "../../../../assets/expertise-study/business-intellegence.j
 import BlockChain from "../../../../assets/expertise-study/blockchain.jpg";
 import Ai from "../../../../assets/expertise-study/ai.jpg";
 
-const cardData = [
+const blogData = [
     {
         date: 10.2025,
         title: "Design Thinking & Design Systems",
@@ -29,4 +29,4 @@ const cardData = [
         img: Ai
     }
 ]
-export default cardData;
+export default blogData;
