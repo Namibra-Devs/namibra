@@ -8,7 +8,7 @@ import BlogList from "./BlogList";
 
 const BlogPost = () => {
   return (
-    <section className="bg-white px-6 lg:px-24 py-24">
+    <section className="bg-white px-6 lg:px-24 pt-24 pb-14">
         <div className="max-w-4xl">
             {/* Blog Header */}
             <div className="flex items-center justify-between mb-6">
