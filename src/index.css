@@ -18,6 +18,9 @@ html {
   .mobile-link{
     @apply  w-full text-center hover:text-black text-lg hover:bg-white/10 duration-700 py-1 px-4;
   }
+  .blogpost-social-icon{
+    @apply w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center cursor-pointer;
+  }
 }
 
 
