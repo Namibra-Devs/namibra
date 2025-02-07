@@ -1,5 +1,4 @@
 import { useState } from "react";
-import ButtonFilled from "../../../components/buttons/ButtonFilled";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -79,7 +78,9 @@ const ContactForm = () => {
             </div>
         </div>
         <div className="mt-10 w-full">
-            <ButtonFilled label="Submit Your Message" />
+            <button type="submit" onClick={handleSubmit} className="w-full bg-primary hover:bg-gray-950 duration-700 ease py-3 px-10 rounded text-lg font-semibold text-white">
+              Submit Your Message
+            </button>
         </div>
       </form>
     </div>
