@@ -12,7 +12,7 @@ const ServicesIntro = () => {
           />
         </div>
         <div className="w-full lg:max-w-[50%]">
-          <h2 className="heading text-5xl font-semibold text-black mb-6">
+          <h2 className="heading text-3xl lg:text-4xl font-semibold text-black mb-6">
             A Great User Experience Is Our First Priority
           </h2>
           <p className="text-slate-600 mb-8">
