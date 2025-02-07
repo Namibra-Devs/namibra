@@ -28,6 +28,7 @@ export default {
         testimonialsbg: "url(../src/assets/testimonials/testimonials-bg.png)",
         expertisestudybg: "url(../src/assets/expertise-study/expertise-study-bg.png)",
         expertiseHomebg: "url(../src/assets/home/our-expertise.png)",
+        contactusbg: "url(../src/assets/contactus/contactus-bg.png)",
         newslettersbg: "url(../src/assets/home/news-letters-bg.png)",
         ctabg: "url(../src/assets/aboutus/cta.png)",
       },
