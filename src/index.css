@@ -13,7 +13,7 @@ html {
 :root {
   /* General Button  */
   .nav-link{
-    @apply text-[17px] transition px-6 py-2 rounded bg-white/10 hover:bg-white/30 hover:text-black duration-700 ease-in;
+    @apply text-[17px] transition px-4 py-2 rounded bg-white/10 hover:bg-white/30 hover:text-black duration-700 ease-in;
   }
   .mobile-link{
     @apply  w-full text-center hover:text-black text-lg hover:bg-white/10 duration-700 py-1 px-4;
