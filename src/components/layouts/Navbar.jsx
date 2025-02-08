@@ -49,7 +49,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex items-center space-x-2 text-white">
+        <div className="hidden md:flex items-center space-x-1 text-white">
           <Link to="/" className="nav-link">
             Home
           </Link>
@@ -63,7 +63,13 @@ const Navbar = () => {
             Careers
           </Link>
           <Link to="/portfolio" className="nav-link">
-            Our Portfolio
+            Portfolio
+          </Link>
+          <Link to="/expertise-study" className="nav-link">
+            Blog
+          </Link>
+          <Link to="/contact-us" className="nav-link">
+            Contact Us
           </Link>
         </div>
 
@@ -115,6 +121,12 @@ const Navbar = () => {
               </Link>
               <Link to="/portfolio" className="mobile-link" onClick={() => setIsOpen(false)}>
                 Our Portfolio
+              </Link>
+              <Link to="/expertise-study" className="mobile-link" onClick={() => setIsOpen(false)}>
+                Blog
+              </Link>
+              <Link to="/contact-us" className="mobile-link" onClick={() => setIsOpen(false)}>
+                Contact Us
               </Link>
             </div>
           )}
