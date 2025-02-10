@@ -30,6 +30,7 @@ export default {
         expertiseHomebg: "url(../src/assets/home/our-expertise.png)",
         contactusbg: "url(../src/assets/contactus/contactus-bg.png)",
         newslettersbg: "url(../src/assets/home/news-letters-bg.png)",
+        clientsbg: "url(../src/assets/clients/clientsbg2.jpg)",
         ctabg: "url(../src/assets/aboutus/cta.png)",
       },
       animation: {
