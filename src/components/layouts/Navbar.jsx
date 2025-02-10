@@ -65,8 +65,8 @@ const Navbar = () => {
           <Link to="/portfolio" className="nav-link">
             Portfolio
           </Link>
-          <Link to="/expertise-study" className="nav-link">
-            Blog
+          <Link to="/clients" className="nav-link">
+            Clients
           </Link>
           <Link to="/contact-us" className="nav-link">
             Contact Us
@@ -106,7 +106,7 @@ const Navbar = () => {
             }`}
         >
           {isVisible && (
-            <div className="text-white flex flex-col justify-center items-center py-5 space-y-6 w-full px-6">
+            <div className="text-white flex flex-col justify-center items-center py-5 space-y-4 w-full px-6">
               <Link to="/" className="mobile-link" onClick={() => setIsOpen(false)}>
                 Home
               </Link>
@@ -122,8 +122,8 @@ const Navbar = () => {
               <Link to="/portfolio" className="mobile-link" onClick={() => setIsOpen(false)}>
                 Our Portfolio
               </Link>
-              <Link to="/expertise-study" className="mobile-link" onClick={() => setIsOpen(false)}>
-                Blog
+              <Link to="/clients" className="mobile-link" onClick={() => setIsOpen(false)}>
+                Clients
               </Link>
               <Link to="/contact-us" className="mobile-link" onClick={() => setIsOpen(false)}>
                 Contact Us

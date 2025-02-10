@@ -13,6 +13,7 @@ import Footer from "./components/layouts/Footer";
 import UnderDevelopmentOverlay from "./components/utils/UnderDevelopmentOverlay";
 import Preloader from "./components/utils/Preloader";
 import ScrollToTop from "./components/utils/ScrollToTop";
+import Clients from "./pages/clients/Clients";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -42,6 +43,7 @@ const App = () => {
             <Route path="/portfolio" element={<OurPortfolio />} />
             <Route path="/testimonials" element={<Testimonials />} />
             <Route path="/expertise-study" element={<ExpertiseStudy />} />
+            <Route path="/clients" element={<Clients />} />
             <Route path="/contact-us" element={<Contactus />} />
           </Routes>
           <Footer />
