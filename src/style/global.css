@@ -1,0 +1,3 @@
+.home-form-select option{
+    background: transparent; /* Tailwind's bg-gray-900 */
+  }

@@ -6,7 +6,7 @@ import instagramIcon from "../../assets/icons/instagram.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary text-white py-20 relative overflow-hidden">
+    <footer className="bg-primary text-white py-20 overflow-hidden">
       <div className="mx-auto px-6 lg:px-24 flex flex-col lg:flex-row justify-between items-start gap-10 md:gap-40">
         {/* Left Section - Logo, Name, Contact */}
         <div className="flex-1">
@@ -16,12 +16,13 @@ const Footer = () => {
             </a>
           </div>
           <p className="text-lg my-3">
-            Lorem ipsum diolor emet atet lorem ipsum dilore amet lorem iosum
-            dilor amet lorem ipsum diilor amet ncdnd dnjsdkkdls jdslkdsp;
-            mkldkmmckmm lksdls slddslkksd l
+            Namibra is a leading digital agency dedicated to empowering
+            businesses and individuals with innovative digital solutions.
           </p>
-          <p className="text-[18px]">+2338096542356</p>
-          <p className="text-[18px]">info@namibra.com</p>
+          <p className="text-[18px]">+233 257887464</p>
+          <p className="text-[18px]">+233 205894240</p>
+          <p className="text-[18px]">+233 542095569</p>
+          <p className="text-[18px]">info@namibra.io</p>
         </div>
 
         {/* Middle Section - Quick Links */}
@@ -44,10 +45,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a
-                href="/portfolio"
-                className="hover:text-gray-400 text-[18px]"
-              >
+              <a href="/portfolio" className="hover:text-gray-400 text-[18px]">
                 Portfolio
               </a>
             </li>
@@ -78,9 +76,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-5 flex justify-center items-center w-full">
-        <img src={logo} alt="Namibra" className="w-5 animate-spin-delay" />
-      </div>{" "}
       {/* Bottom Section - Copyright */}
       <div className="text-center text-sm text-gray-400 mt-14">
         © 2023 Namibra. All rights reserved.
