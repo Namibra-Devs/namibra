@@ -26,7 +26,6 @@ const SendAMessage = () => {
             placeholder="Your Email"
             className="flex-1 w-full bg-transparent border border-white/30 rounded py-3 px-4 text-[15px] text-white placeholder-white focus:outline-none"/>
           <select
-            placeholder="Your Number"
             className="home-form-select flex-1 w-full appearance-none bg-transparent border border-white/30 rounded py-3 px-4 text-[15px] placeholder-white focus:outline-none">
             <option className="text-primary" value="">Select a service</option>
             <option className="text-primary" value="sales_master">Sales Master</option>

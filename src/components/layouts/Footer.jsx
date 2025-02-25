@@ -1,12 +1,17 @@
-import logo from "../../assets/logo.png";
+
 import facebookIcon from "../../assets/icons/facebook.png";
 import twitterIcon from "../../assets/icons/twitter.png";
 import linkedinIcon from "../../assets/icons/linkedin.png";
 import instagramIcon from "../../assets/icons/instagram.png";
 
+
+// Icons
+import { LiaPhoneSolid } from "react-icons/lia";
+import { IoIosMail } from "react-icons/io";
+
 const Footer = () => {
   return (
-    <footer className="bg-primary text-white py-20 overflow-hidden">
+    <footer className="bg-primary text-white pt-20 pb-10 overflow-hidden">
       <div className="mx-auto px-6 lg:px-24 flex flex-col lg:flex-row justify-between items-start gap-10 md:gap-40">
         {/* Left Section - Logo, Name, Contact */}
         <div className="flex-1">
@@ -19,10 +24,10 @@ const Footer = () => {
             Namibra is a leading digital agency dedicated to empowering
             businesses and individuals with innovative digital solutions.
           </p>
-          <p className="text-[18px]">+233 257887464</p>
-          <p className="text-[18px]">+233 205894240</p>
-          <p className="text-[18px]">+233 542095569</p>
-          <p className="text-[18px]">info@namibra.io</p>
+          <p className="text-[18px] flex items-center"><LiaPhoneSolid className="text-white mr-2" /> +233 257887464</p>
+          <p className="text-[18px] flex items-center"><LiaPhoneSolid className="text-white mr-2" /> +233 205894240</p>
+          <p className="text-[18px] flex items-center"><LiaPhoneSolid className="text-white mr-2" /> +233 542095569</p>
+          <p className="text-[18px] flex items-center"> <IoIosMail className="text-white mr-2" /> info@namibra.io</p>
         </div>
 
         {/* Middle Section - Quick Links */}
