@@ -46,7 +46,10 @@ const App = () => {
             <Route path="/expertise-study" element={<ExpertiseStudy />} />
             <Route path="/clients" element={<Clients />} />
             <Route path="/contact-us" element={<Contactus />} />
+
+            {/* 404 Page */}
             <Route path="*" element={<NotFoundPage />} />
+            
           </Routes>
           <Footer />
         </>
