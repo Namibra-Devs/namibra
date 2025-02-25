@@ -1,4 +1,5 @@
 import ClientsHero from "../../components/heroSections/ClientsHero";
+import ScrollToTop from "../../components/utils/ScrollToTop";
 import ClientsLogoList from "./ClientsLogoList";
 
 const Clients = () => {
@@ -14,6 +15,7 @@ const Clients = () => {
         </div>
         <ClientsLogoList />
       </section>
+      <ScrollToTop/>
     </>
   );
 };
