@@ -28,14 +28,14 @@ const ContactForm = () => {
 
       <form onSubmit={handleSubmit}>
         <div className="space-y-4">
-            <div className="flex space-x-4">
+            <div className="flex flex-col md:flex-row gap-4">
             <input
                 type="text"
                 name="name"
                 placeholder="Enter name"
                 value={formData.name}
                 onChange={handleChange}
-                className="w-1/2 p-3 border border-gray-300 rounded-lg focus:outline-none"
+                className="w-full md:w-1/2 p-3 border border-gray-300 rounded-lg focus:outline-none"
             />
             <input
                 type="text"
@@ -43,7 +43,7 @@ const ContactForm = () => {
                 placeholder="Enter number"
                 value={formData.phone}
                 onChange={handleChange}
-                className="w-1/2 p-3 border border-gray-300 rounded-lg focus:outline-none"
+                className="w-full md:w-1/2 p-3 border border-gray-300 rounded-lg focus:outline-none"
             />
             </div>
 
