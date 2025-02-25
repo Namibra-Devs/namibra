@@ -48,16 +48,18 @@ const Portfolio = () => {
             initial={{ opacity: 0, scale: 0.9, y: 20 }} // Animation on mount
             animate={{ opacity: 1, scale: 1, y: 0 }} // Final state
             transition={{ duration: 0.6, ease: "easeOut" }} // Smooth transition
-            className="shadow-custom-light rounded-lg overflow-hidden"
+            className="min-h-44 shadow-custom-light rounded-2xl overflow-hidden"
             >
-            <img
-                src={project.image}
-                alt={project.title}
-                className="w-full h-60 object-cover transition-transform duration-300 hover:scale-105"
-            />
+            <div className="overflow-hidden">
+              <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-60 object-cover transition-transform duration-300 scale-110 hover:scale-125"
+              />
+            </div>
             <div className="p-4">
                 <h3 className="text-xl font-semibold">{project.title}</h3>
-                <p className="text-gray-600">{project.description}</p>
+                <p className="text-gray-500 leading-tight">{project.description}</p>
             </div>
           </motion.div>
         ))}

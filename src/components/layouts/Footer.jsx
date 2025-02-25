@@ -1,12 +1,17 @@
-import logo from "../../assets/logo.png";
+
 import facebookIcon from "../../assets/icons/facebook.png";
 import twitterIcon from "../../assets/icons/twitter.png";
 import linkedinIcon from "../../assets/icons/linkedin.png";
 import instagramIcon from "../../assets/icons/instagram.png";
 
+
+// Icons
+import { LiaPhoneSolid } from "react-icons/lia";
+import { IoIosMail } from "react-icons/io";
+
 const Footer = () => {
   return (
-    <footer className="bg-primary text-white py-20 relative overflow-hidden">
+    <footer className="bg-primary text-white pt-20 pb-10 overflow-hidden">
       <div className="mx-auto px-6 lg:px-24 flex flex-col lg:flex-row justify-between items-start gap-10 md:gap-40">
         {/* Left Section - Logo, Name, Contact */}
         <div className="flex-1">
@@ -16,12 +21,13 @@ const Footer = () => {
             </a>
           </div>
           <p className="text-lg my-3">
-            Lorem ipsum diolor emet atet lorem ipsum dilore amet lorem iosum
-            dilor amet lorem ipsum diilor amet ncdnd dnjsdkkdls jdslkdsp;
-            mkldkmmckmm lksdls slddslkksd l
+            Namibra is a leading digital agency dedicated to empowering
+            businesses and individuals with innovative digital solutions.
           </p>
-          <p className="text-[18px]">+2338096542356</p>
-          <p className="text-[18px]">info@namibra.com</p>
+          <p className="text-[18px] flex items-center"><LiaPhoneSolid className="text-white mr-2" /> (+233) 25 788 7464</p>
+          <p className="text-[18px] flex items-center"><LiaPhoneSolid className="text-white mr-2" /> (+233) 20 589 4240</p>
+          <p className="text-[18px] flex items-center"><LiaPhoneSolid className="text-white mr-2" /> (+233) 54 209 5569</p>
+          <p className="text-[18px] flex items-center"> <IoIosMail className="text-white mr-2" /> info@namibra.io</p>
         </div>
 
         {/* Middle Section - Quick Links */}
@@ -29,7 +35,7 @@ const Footer = () => {
           <h3 className="text-2xl font-semibold mb-6">Quick Links</h3>
           <ul className="space-y-5 text-sm">
             <li>
-              <a href="/aboutus" className="hover:text-gray-400 text-[18px]">
+              <a href="/about-us" className="hover:text-gray-400 text-[18px]">
                 About Us
               </a>
             </li>
@@ -44,10 +50,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a
-                href="/portfolio"
-                className="hover:text-gray-400 text-[18px]"
-              >
+              <a href="/portfolio" className="hover:text-gray-400 text-[18px]">
                 Portfolio
               </a>
             </li>
@@ -78,9 +81,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-5 flex justify-center items-center w-full">
-        <img src={logo} alt="Namibra" className="w-5 animate-spin-delay" />
-      </div>{" "}
       {/* Bottom Section - Copyright */}
       <div className="text-center text-sm text-gray-400 mt-14">
         © 2023 Namibra. All rights reserved.

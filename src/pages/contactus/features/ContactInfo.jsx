@@ -21,7 +21,7 @@ const ContactInfo = () => {
             {/* Phone */}
             <div className="flex items-center space-x-3">
             <HiOutlinePhone className="text-2xl text-gray-700" />
-            <p className="text-gray-700 text-lg font-semibold">+233 0902-222-1212</p>
+            <p className="text-gray-700 text-lg font-semibold">(+233) 25 788 7464</p>
             </div>
         </div>
 

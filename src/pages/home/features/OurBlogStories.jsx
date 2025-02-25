@@ -17,8 +17,8 @@ const OurBlogStories = () => {
           <h2 className="text-3xl font-medium text-black my-2">
             Our Expertise study & research
           </h2>
-          <h3 className="text-slate-600 text-sm">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          <h3 className="text-slate-600 text-lg">
+            Explore our latest blog post
           </h3>
         </div>
         <BlogList blogs={blogData} showMore={true} />

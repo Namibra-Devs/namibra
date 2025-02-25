@@ -17,5 +17,4 @@ const ExpertiseCard = () => {
     </div>
   )
 }
-
 export default ExpertiseCard

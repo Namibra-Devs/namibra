@@ -24,7 +24,7 @@ const ServicesList = ({ services, showViewMore }) => {
       {/* "View More" button (Only show when needed) */}
       {showViewMore && (
         <div className="flex justify-center mt-4 text-center">
-          <ButtonFilled label="Learn More" link="/services" />
+          <ButtonFilled label="Learn More" link="/services#allservices" />
         </div>
       )}
     </section>
