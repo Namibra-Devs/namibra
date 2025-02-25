@@ -5,7 +5,7 @@ const SendAMessage = () => {
       <h2 className="text-2xl font-bold text-center">Request a call-back</h2>
       <p className="text-center text-white mb-10">Get in touch with us</p>
 
-      <form className="space-y-6">
+      <form className="space-y-4">
         {/* Name & Number - Flex Row */}
         <div className="flex flex-col md:flex-row gap-4 w-full">
           <input

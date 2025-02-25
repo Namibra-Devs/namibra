@@ -24,9 +24,9 @@ const Footer = () => {
             Namibra is a leading digital agency dedicated to empowering
             businesses and individuals with innovative digital solutions.
           </p>
-          <p className="text-[18px] flex items-center"><LiaPhoneSolid className="text-white mr-2" /> +233 257887464</p>
-          <p className="text-[18px] flex items-center"><LiaPhoneSolid className="text-white mr-2" /> +233 205894240</p>
-          <p className="text-[18px] flex items-center"><LiaPhoneSolid className="text-white mr-2" /> +233 542095569</p>
+          <p className="text-[18px] flex items-center"><LiaPhoneSolid className="text-white mr-2" /> (+233) 25 788 7464</p>
+          <p className="text-[18px] flex items-center"><LiaPhoneSolid className="text-white mr-2" /> (+233) 20 589 4240</p>
+          <p className="text-[18px] flex items-center"><LiaPhoneSolid className="text-white mr-2" /> (+233) 54 209 5569</p>
           <p className="text-[18px] flex items-center"> <IoIosMail className="text-white mr-2" /> info@namibra.io</p>
         </div>
 
@@ -35,7 +35,7 @@ const Footer = () => {
           <h3 className="text-2xl font-semibold mb-6">Quick Links</h3>
           <ul className="space-y-5 text-sm">
             <li>
-              <a href="/aboutus" className="hover:text-gray-400 text-[18px]">
+              <a href="/about-us" className="hover:text-gray-400 text-[18px]">
                 About Us
               </a>
             </li>

@@ -20,6 +20,13 @@ const portfolioData = [
         category: "Mobile App Designs",
         description: "A modern travel booking mobile application UI.",
       },
+      {
+        id: 103,
+        image: ProjectOne,
+        title: "Construction Company Lpd",
+        category: "Mobile App Designs",
+        description: "A construction company mobile and web application UI.",
+      },
     ],
   },
   {

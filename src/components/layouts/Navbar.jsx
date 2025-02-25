@@ -41,7 +41,7 @@ const Navbar = () => {
         {/* Logo & Name */}
         <div className="text-white text-2xl font-bold flex items-center gap-3 relative z-50">
           <Link to="/">
-            <img src={logo} alt="" className="w-6 lg:w-8 animate-spin-delay sm:animate-none" />
+            <img src={logo} alt="" className="w-6 lg:w-8" />
           </Link>
           <a href="/" className="text-white text-2xl lg:text-[34px] tracking-tighter mt-1">
             Namibra
