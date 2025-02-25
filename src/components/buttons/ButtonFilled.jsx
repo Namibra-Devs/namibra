@@ -4,7 +4,7 @@ const ButtonFilled = ({ label, link, onClick}) => {
     <Link to={link}>
       <button 
       type="submit" // Accepts type prop
-      onClick={onClick} className="bg-primary hover:bg-gray-950 duration-700 ease py-3 px-10 rounded text-lg font-semibold text-white">
+      onClick={onClick} className="bg-primary hover:bg-gray-950 duration-700 ease py-3 px-10 rounded-[8.5px] text-lg font-semibold text-white">
         {label}
       </button>
     </Link>
