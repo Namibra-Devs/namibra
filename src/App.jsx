@@ -12,7 +12,7 @@ import Contactus from "./pages/contactus/Contactus";
 import Footer from "./components/layouts/Footer";
 import UnderDevelopmentOverlay from "./components/utils/UnderDevelopmentOverlay";
 import Preloader from "./components/utils/Preloader";
-import ScrollToTop from "./components/utils/ScrollToTop";
+import SmoothScrollToTop from "./components/utils/SmoothScrollToTop";
 import Clients from "./pages/clients/Clients";
 
 const App = () => {
@@ -29,7 +29,7 @@ const App = () => {
 
   return (
     <Router>
-      <ScrollToTop/>
+      <SmoothScrollToTop />
       {loading ? (
         <Preloader />
       ) : (

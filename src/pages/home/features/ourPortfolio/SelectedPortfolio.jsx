@@ -19,7 +19,7 @@ const SelectedPortfolio = () => {
           ))}
     </div>
     <div className="text-center mt-10">
-        <ButtonFilled label="View More" link="/portfolio" />
+        <ButtonFilled label="View More" link="/portfolio#portfolio" />
     </div>
     </>
   )

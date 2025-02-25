@@ -1,4 +1,5 @@
 import CareersHero from "../../components/heroSections/CareersHero";
+import ScrollToTop from "../../components/utils/ScrollToTop";
 import CareersIntro from "./features/CareersIntro";
 import NamibraCulture from "./features/namibraCulture/NamibraCulture";
 import OpenPositions from "./features/openPositions/OpenPositions";
@@ -12,6 +13,7 @@ const Careers = () => {
       <NamibraCulture />
       <OpenPositions />
       <TeamTestimonials/>
+      <ScrollToTop/>
     </>
   );
 };
