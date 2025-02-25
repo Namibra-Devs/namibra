@@ -13,7 +13,7 @@ const CustomerTestimonials = () => {
           <h2 className="text-3xl font-medium text-black my-2">
             Customer testimonials
           </h2>
-          <h3 className="text-slate-600 text-sm">This is what our clients says about us.</h3>
+          <h3 className="text-slate-600 text-lg">This is what our clients says about us.</h3>
         </div>
         <TestimonialsList testimonial={testimonialsData.slice(0, 2)} showMore={true} />
       </div>

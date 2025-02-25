@@ -11,7 +11,7 @@ const AboutUsSection = () => {
             <img
               src={About1}
               alt=""
-              className="rounded-lg w-full min-h-72 object-cover"
+              className="rounded-2xl w-full min-h-72 object-cover"
             />
           </div>
           <div className="w-full lg:max-w-[50%]">
@@ -19,7 +19,7 @@ const AboutUsSection = () => {
               About Namibra
             </h2>
 
-            <p className="mt-3 mb-9 text-slate-600">
+            <p className="mt-3 mb-9 text-slate-600 text-lg">
               Namibra is a leading digital agency dedicated to empowering
               businesses and individuals with innovative digital solutions.{" "}
               <br /> <br /> With our expertise in mobile app development,
@@ -34,7 +34,7 @@ const AboutUsSection = () => {
         </div>
         <div className="flex flex-col lg:flex-row items-end gap-14 mb-20">
           <div className="w-full lg:max-w-[50%]">
-            <h3 className="text-slate-800 text-3xl font-semibold">
+            <h3 className="text-slate-700 text-3xl font-semibold">
               We make sure your <span className="italic text-black">idea </span>
                and <span className="italic text-black">creation </span>
               are delivered with great{" "}
@@ -45,7 +45,7 @@ const AboutUsSection = () => {
             <img
               src={About2}
               alt="About image"
-              className="w-full object-cover"
+              className="w-full object-cover rounded-2xl"
             />
           </div>
         </div>
@@ -54,7 +54,7 @@ const AboutUsSection = () => {
             <h2 className="heading text-3xl font-semibold text-black mb-6">
               Training & Support
             </h2>
-            <p className="text-slate-600">
+            <p className="text-slate-600 text-lg">
               Namibra provides continuous training and support to all our
               clients. We ensure that all our solutions are adequately
               maintained over the life-span of the product - and we are with you
@@ -65,7 +65,7 @@ const AboutUsSection = () => {
             <img
               src={About3}
               alt="About image"
-              className="w-full object-cover"
+              className="w-full object-cover rounded-2xl"
             />
           </div>
         </div>
