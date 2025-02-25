@@ -20,7 +20,7 @@ const OurPortfolioProjects = () => {
           <h2 className="text-3xl font-medium text-black my-2">
             Our Projects
           </h2>
-          <h3 className="text-slate-600 text-sm px-0 lg:px-64">
+          <h3 className="text-slate-600 text-lg px-0 lg:px-64">
             We have delivered a vast range of solutions that have made a
             significant difference in our clients' businesses. Here are some of
             our projects.

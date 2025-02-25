@@ -8,7 +8,7 @@ const ServicesIntro = () => {
           <img
             src={ServiceIntroImg}
             alt="Intro image"
-            className="w-full object-cover"
+            className="w-full object-cover rounded-2xl"
           />
         </div>
         <div className="w-full lg:max-w-[50%]">

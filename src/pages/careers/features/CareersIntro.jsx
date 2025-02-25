@@ -10,7 +10,7 @@ const CareersIntro = () => {
             <img
               src={Career1}
               alt="career image"
-              className="rounded-lg w-full min-h-72 object-cover"
+              className="rounded-2xl w-full min-h-72 object-cover"
             />
           </div>
           <div className="w-full lg:max-w-[50%]">
@@ -58,7 +58,7 @@ const CareersIntro = () => {
             <img
               src={Career2}
               alt="career image"
-              className="w-full object-cover rounded-lg"
+              className="w-full object-cover rounded-2xl"
             />
           </div>
         </div>

@@ -10,7 +10,7 @@ const PositionsListCard = () => {
         <div key={i} className="border-t border-slate-300 py-8 flex flex-col items-start">
           <div className="flex items-center gap-3">
             <span className="text-xl">{pos.title}</span>
-            <span className="px-3 py-1.5 rounded-lg bg-slate-300 text-slate-800 text-sm">{pos.dept}</span>
+            <span className="px-3 py-1.5 rounded-[8.5px] bg-slate-300 text-slate-800 text-sm">{pos.dept}</span>
           </div>
           <p className="text-slate-600 my-4">{pos.des}</p>
           <div className="flex items-center gap-3 mb-4">
@@ -18,7 +18,7 @@ const PositionsListCard = () => {
             <span className="flex items-center gap-2"><SlClock className="text-lg" /> Contract Type</span>
           </div>
 
-          <button className="bg-transparent px-4 py-2 rounded-lg border border-slate-600 text-sm hover:bg-primary hover:text-white duration-700">Apply Now</button>
+          <button className="bg-transparent px-4 py-2 rounded-[8.5px] border border-slate-600 text-sm hover:bg-primary hover:text-white duration-700">Apply Now</button>
         </div>
       ))}
     </section>

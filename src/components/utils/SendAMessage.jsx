@@ -5,7 +5,7 @@ const SendAMessage = () => {
       <h2 className="text-2xl font-bold text-center">Request a call-back</h2>
       <p className="text-center text-white mb-10">Get in touch with us</p>
 
-      <form className="space-y-6">
+      <form className="space-y-4">
         {/* Name & Number - Flex Row */}
         <div className="flex flex-col md:flex-row gap-4 w-full">
           <input
@@ -19,20 +19,33 @@ const SendAMessage = () => {
             className="flex-1 w-full bg-transparent border border-white/30 rounded py-3 px-4 text-[15px] text-white placeholder-white focus:outline-none"
           />
         </div>
+        {/* Name & Number - Flex Row */}
+        <div className="flex flex-col gap-4 w-full">
+          <input
+            type="email"
+            placeholder="Your Email"
+            className="flex-1 w-full bg-transparent border border-white/30 rounded py-3 px-4 text-[15px] text-white placeholder-white focus:outline-none"/>
+          <select
+            className="home-form-select flex-1 w-full appearance-none bg-transparent border border-white/30 rounded py-3 px-4 text-[15px] placeholder-white focus:outline-none">
+            <option className="text-primary" value="">Select a service</option>
+            <option className="text-primary" value="sales_master">Sales Master</option>
+            <option className="text-primary" value="cast_right">Cast Right</option>
+            <option className="text-primary" value="erp">ERP</option>
+            <option className="text-primary" value="other">Other</option>
+          </select>
+        </div>
 
         {/* Textarea */}
         <textarea
           placeholder="Describe your project"
           rows="5"
-          className="w-full bg-transparent border border-white/30 rounded py-2 px-4 text-[15px] text-white placeholder-white focus:outline-none"
-        ></textarea>
+          className="w-full bg-transparent border border-white/30 rounded py-2 px-4 text-[15px] text-white placeholder-white focus:outline-none"></textarea>
 
         {/* Button */}
         <button
           type="submit"
-          className="w-full bg-transparent hover:bg-primary hover:border-primary hover:bg-opacity-80 text-white font-semibold text-[20px] py-3 border border-white/30 rounded duration-700 ease"
-        >
-          Send A Request
+          className="w-full bg-transparent hover:bg-primary hover:border-primary hover:bg-opacity-80 text-white font-semibold text-[20px] py-3 border border-white/30 rounded duration-700 ease">
+            Send A Request
         </button>
       </form>
     </div>

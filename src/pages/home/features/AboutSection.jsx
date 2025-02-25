@@ -41,14 +41,14 @@ const AboutSection = () => {
             </div>
 
             <div className="w-full lg:max-w-[50%]">
-              <img src={img1} alt="" className="w-full" />
+              <img src={img1} alt="" className="w-full rounded-2xl" />
             </div>
           </div>
         </div>
 
         <div className="flex flex-col lg:flex-row justify-between items-center gap-20 mt-24">
           <div className="w-full lg:max-w-[50%]">
-            <img src={img2} alt="" className="w-full" />
+            <img src={img2} alt="" className="w-full rounded-2xl" />
           </div>
           <div className="w-full lg:max-w-[50%]">
             <h2 className="heading text-xl font-medium text-black">

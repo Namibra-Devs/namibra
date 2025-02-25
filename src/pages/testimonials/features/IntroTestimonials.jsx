@@ -22,7 +22,7 @@ const IntroTestimonials = () => {
         {selectedTestimonials?.map((testy, index) => (
           <div key={index}>
             <h2 className="text-3xl font-semibold text-black mb-8">{testy.title}</h2>
-            <img src={testy.img} alt="A Man" className="rounded-lg" />
+            <img src={testy.img} alt="A Man" className="rounded-2xl" />
             <div className="border-l-2 border-gray-500 pl-4 py-3 mt-10">
               <p className="italic text-gray-600 text-2xl font-medium w-full lg:max-w-2xl">{testy.message}</p>
               <h3 className="font-semibold text-2xl text-black mt-4">{testy.name}</h3>

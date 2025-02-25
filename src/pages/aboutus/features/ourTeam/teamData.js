@@ -11,7 +11,7 @@ import M9 from "../../../../assets/aboutus/team/9.jpg";
 const cardData = [
     {
         name: "Mohammed Amin Ibrahim",
-        role: "CEO @ Namibra.io",
+        role: "Co-founder and Software Engineer, CEO Namibra.io",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
         profile: M1,
         linkedin: "",
