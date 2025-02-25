@@ -14,6 +14,7 @@ import UnderDevelopmentOverlay from "./components/utils/UnderDevelopmentOverlay"
 import Preloader from "./components/utils/Preloader";
 import SmoothScrollToTop from "./components/utils/SmoothScrollToTop";
 import Clients from "./pages/clients/Clients";
+import NotFoundPage from "./pages/NotFoundPage";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -45,6 +46,10 @@ const App = () => {
             <Route path="/expertise-study" element={<ExpertiseStudy />} />
             <Route path="/clients" element={<Clients />} />
             <Route path="/contact-us" element={<Contactus />} />
+
+            {/* 404 Page */}
+            <Route path="*" element={<NotFoundPage />} />
+            
           </Routes>
           <Footer />
         </>
