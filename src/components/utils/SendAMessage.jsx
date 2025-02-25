@@ -15,8 +15,6 @@ const SendAMessage = () => {
     message: "",
   });
 
-  console.log(formData);
-
   const [status, setStatus] = useState("idle");
 
   const handleChange = (e) => {
