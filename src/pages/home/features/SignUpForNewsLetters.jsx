@@ -13,7 +13,7 @@ const SignUpForNewsLetters = () => {
             <input
             type="email"
             placeholder="Enter your email"
-            className="w-full px-4 py-3 rounded-l-lg outline-none border-none text-gray-800"/>
+            className="w-full px-4 py-3 rounded-l-lg focus:outline-none border-none text-gray-800"/>
             <button className="bg-primary hover:bg-black/80  duration-700 text-white px-10 rounded-[8.5px] font-medium">
               Subscribe
             </button>

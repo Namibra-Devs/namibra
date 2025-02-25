@@ -37,7 +37,7 @@ const BlogPost = () => {
                 <img
                 src={DesignThinking}
                 alt="Design Systems"
-                className="w-full rounded-lg shadow-lg"
+                className="w-full rounded-2xl"
                 />
             </div>
 

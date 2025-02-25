@@ -1,4 +1,5 @@
 import HomeHero from "../../components/heroSections/HomeHero"
+import ScrollToTop from "../../components/utils/ScrollToTop"
 import AboutSection from "./features/AboutSection"
 import BrandLogos from "./features/BrandLogos"
 import CustomerTestimonials from "./features/CustomerTestimonials"
@@ -22,6 +23,7 @@ const Home = () => {
       <OurBlogStories/>
       <SignUpForNewsLetters/>
       <BrandLogos/>
+      <ScrollToTop/>
     </>
   )
 }

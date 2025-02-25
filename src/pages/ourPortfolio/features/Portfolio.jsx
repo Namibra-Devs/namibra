@@ -21,7 +21,7 @@ const Portfolio = () => {
           .flatMap((category) => category.projects);
 
   return (
-    <section className="px-6 lg:px-24 py-24">
+    <section id="portfolio" className="px-6 lg:px-24 py-24">
     
       {/* Tabs */}
       <div className="flex space-x-2 md:space-x-6 justify-center mb-6">
